@@ -20,6 +20,7 @@ body{
     background-color: #FF5400;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 /* main styles */
 nav > div {
@@ -102,4 +103,49 @@ nav > div > ul :nth-child(1) a {
     /* padding-right: 16px; */
     padding-top: 16px;
     padding-bottom: 16px;
+}
+.popular {
+    display: flex;
+    justify-content: space-between;
+    gap: 53px;
+    margin: 100px 0;
+}
+.popular > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
+.popular > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+.popular > div > div ul{
+    color: rgba(19, 19, 24, 0.7);
+}
+.popular > div > div ul li{
+    margin-left: 20px;/* to match the figma */
+    margin-top: 10px;
+    line-height: 26px;
+}
+.popular > div > div ul li :nth-child(1){
+    margin-left: 20px;
+    /* margin-top: 10px; */
+}
+.popular > div > div p {
+    color: rgba(19, 19, 24, 0.7);
+    line-height: 26px;
+}
+.popular > div > div h2{
+    font-weight: 800;
+    font-size: 40px;
+    color: #131318;
+}
+.popular > div button {
+    width: fit-content;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 14px 34px;
 }
