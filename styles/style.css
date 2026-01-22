@@ -1,0 +1,12 @@
+/* Universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+.mulish-font {
+  font-family: "Mulish", sans-serif;
+}
+
+body{
+    max-width: 1178px;
+}
