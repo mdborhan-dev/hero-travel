@@ -449,3 +449,41 @@ nav > div > ul :nth-child(1) a {
     right: 10px;
     transform: rotate(-20deg);
 }
+footer {
+    background-color: rgba(19, 19, 24, 0.05);
+    max-width: unset;
+}
+.footer {
+    padding: 110px 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer img {
+    max-width: 240px;
+    margin-bottom: 15px;
+}
+.footer .dummy{
+    line-height: 26px;
+    color: #5A5A5D;
+    margin-bottom: 32px;
+}
+.footer > div img{
+    max-height: 24px;
+}
+.footer > div a{
+    margin-right: 32px;
+}
+.footer > div > a > :nth-child(4){
+    margin-right: 0;
+}
+.footer hr{
+    color: rgba(19, 19, 24, 0.9);
+    margin: 50px 0;
+    width: 100%;
+}
+.footer .copy{
+    font-weight: 300;
+}
