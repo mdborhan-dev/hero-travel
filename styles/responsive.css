@@ -1,0 +1,152 @@
+@media screen and (max-width:576px) {
+    body{
+        margin: 20px;
+    }
+    nav > div{
+        padding: 18px 20px;
+    }
+    nav > div > ul{
+        display: none;
+    }
+    nav > div > img{
+        display: inline-block;
+        max-width: 24px;
+    }
+    nav > div > div > img{
+        max-width: 163px;
+    }
+    .banner{
+        /* width: 100%; */
+
+    }
+    .banner > div{
+        gap: 8px;
+    }
+    .banner > div h1{
+        font-size: 22px;
+    }
+    .banner > div p , .popular > div > div ul li, .destination .c p
+    .why .card-title p .deals .deals-heading p{
+        max-width: 304px;
+        margin-bottom: 26px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .banner form{
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .banner select, .banner input[type="text"]{
+        width: 100%;
+    }
+    .banner form button {
+        width: 100%;
+    }
+    .popular{
+        flex-direction: column;
+        margin: 24px 0;
+        gap: 24px;
+    }
+    .popular > div > div{
+        gap: 16px;
+    }
+    .popular > div > div h2, .destination .c h2, .why .card-title h2, .deals .deals-heading h2{
+        font-size: 20px;
+    }
+    .popular > div > div ul li{
+        font-size: 14px;
+    }
+    .popular > div {
+        gap: 24px;
+    }
+    .destination .c {
+        gap: 16px;
+    }
+    .destination{
+        gap: 16px;
+    }
+    .destination .g{
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    .destination .g :nth-child(1),
+.destination .g :nth-child(2) {
+  grid-column: span 1;
+}
+
+.destination .g :nth-child(3) {
+  grid-column: span 1;
+}
+
+.destination .g :nth-child(4) {
+  grid-column: span 1;
+}
+
+.destination .g :nth-child(5) {
+  grid-column: span 1;
+}
+
+.destination .g :nth-child(6) {
+  grid-column: span 1;
+}
+
+.destination .g :nth-child(7) {
+  grid-column: span 1;
+}
+.destination .g div img{
+    width: 100%;
+    height: 176px;
+}
+.destination .g div h1{
+    font-weight: 600;
+    font-size: 20px;
+}   
+    .why , .deals{
+        margin: 24px 0;
+        gap: 16px;
+    }
+    .why .card-title , .deals .deals-heading{
+        gap: 16px;
+    }
+    .why .card {
+        grid-template-columns: 1fr;
+    }
+    .deals .deal-cont{
+        min-width: none;
+        
+    }
+    .deals .deal-cont > div{
+        padding: 24px;
+        /* justify-content: end; */
+        /* flex-direction: column; */
+        /* width: 100%; */
+        background-size: cover;
+    }
+     .deals .deal-cont > div div{
+        padding: 24px;
+         margin-top: 180px;
+     }
+     .nlf{
+        flex-direction: column;
+     }
+     .nlf{
+
+     }
+     
+
+}
+@media screen and (min-width:576px) {
+    .deals .deal-cont{
+        min-width: 1178px;
+    }
+.nlf .img button{
+    position: absolute;
+    bottom: 51px;
+    right: 10px;
+    transform: rotate(-20deg);
+}
+.nlf .img{
+    position: relative;
+}
+}

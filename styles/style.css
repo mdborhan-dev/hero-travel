@@ -8,7 +8,7 @@
   font-family: "Mulish", sans-serif;
 }
 
-body{
+header, main{
     max-width: 1178px;
     margin: 0 auto;
 }
@@ -29,6 +29,9 @@ nav > div {
     justify-content: space-between;
     align-items: center;
     padding:50px 0;
+}
+nav > div > img{
+    display: none;
 }
 nav > div div {
     display: flex;
@@ -58,6 +61,7 @@ nav > div > ul li a{
 nav > div > ul :nth-child(1) a {
     color: #FF5400;
 }
+/* banner section */
 .banner {
     color: #FFFFFF;
     background-image:linear-gradient(180deg,rgba(0, 0, 0, 0.678) , rgba(255, 255, 255, 0.274)),url('../Images/Group\ 13\ \(1\)\ \(1\).png');
@@ -105,6 +109,7 @@ nav > div > ul :nth-child(1) a {
     padding-top: 16px;
     padding-bottom: 16px;
 }
+/* popular section */
 .popular {
     display: flex;
     justify-content: space-between;
@@ -149,6 +154,7 @@ nav > div > ul :nth-child(1) a {
     font-weight: 800;
     font-size: 20px;
     padding: 14px 34px;
+    font-size: 20px;
 }
 .popular > div button , .btnc  {
     display: inline-block;
@@ -238,6 +244,7 @@ nav > div > ul :nth-child(1) a {
 }
 .destination .g div h1{
     position: absolute;
+    font-weight: 800;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -324,7 +331,7 @@ nav > div > ul :nth-child(1) a {
     gap: 16px;
     justify-content: center;
     /* align-items: center; */
-    min-width: 1178px;
+    /* min-width: 1178px; */
 }
  .deals .deal-cont > div {
     display: flex;
@@ -369,6 +376,7 @@ nav > div > ul :nth-child(1) a {
     background-image: url("../Images/Group\ 40.png");
     justify-content: start;
 }
+/* perfect claiming section */
 .perfect > div > div > ul li{
     color: #131318;
     font-weight: 700;
@@ -411,7 +419,6 @@ nav > div > ul :nth-child(1) a {
     gap: 24px;
     border: 1px solid #FF5400;
     border-radius: 16px;
-    min-height: 422px;
 }
 .nlf > .form form h4{
     font-size: 24px;
@@ -431,6 +438,16 @@ nav > div > ul :nth-child(1) a {
 }
 .nlf > .form form button{
     width: 100%;
+}
+.nlf .img > button {
+     /* display: block; */
+    padding: 14px 22px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
 .nlf .img > button p{
     font-size: 24px;
@@ -454,12 +471,14 @@ footer {
     max-width: unset;
 }
 .footer {
-    padding: 110px 336px;
+    padding: 110px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    max-width: 769px;
+    margin: 0 auto;
 }
 .footer img {
     max-width: 240px;
