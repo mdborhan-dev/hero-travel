@@ -144,17 +144,17 @@ nav > div > ul :nth-child(1) a {
     font-size: 40px;
     color: #131318;
 }
-.popular > div button {
+.popular > div button , .btnc {
     width: fit-content;
     font-weight: 800;
     font-size: 20px;
     padding: 14px 34px;
 }
-.popular > div button {
+.popular > div button , .btnc  {
     display: inline-block;
 }
 
-.popular > div button:hover {
+.popular > div button:hover , .btnc:hover {
     animation: readmore 2s ease-in-out infinite;
 }
 
@@ -243,3 +243,130 @@ nav > div > ul :nth-child(1) a {
     transform: translate(-50%,-50%);
     color: #FFFFFF;
 }
+/* why Choose Us section */
+.why , .deals{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 48px;
+    margin: 100px 0;
+}
+.why .card-title , .deals .deals-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    text-align: center;
+    margin: 0 auto;
+}
+.why .card-title h2, .deals .deals-heading h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+.why .card-title p .deals .deals-heading p{
+    line-height: 26px;
+    color: rgba(19, 19, 24, 0.7);
+    max-width: 643px;
+}
+.why .card {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.why .card div{
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-direction: column;
+    border-radius: 16px;
+}
+.why .card div h4{
+    font-size: 24px ;
+    color: #131318;
+    font-weight: 800;
+}
+.why .card div p {
+    line-height: 26px;
+    color: #5A5A5D;
+}
+.why .card div img{
+    max-width: 64px;
+}
+.why .card > :nth-child(1){
+    background-color: rgba(251, 180, 99, 0.2);
+    grid-column: span(1);
+}
+.why .card > :nth-child(2){
+    background-color: rgba(41, 206, 246, 0.2);
+    grid-column: span(1);
+}
+.why .card > :nth-child(3){
+    background-color: rgba(233, 68, 68, 0.2);
+    grid-column: 1/-1;
+    justify-self: center;
+    max-width: 573px;
+}
+/* Deals section */
+.deals {
+    margin: 0;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+.deals .deal-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    /* align-items: center; */
+    min-width: 1178px;
+}
+ .deals .deal-cont > div {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 16px;
+    background-image: url("../Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding: 56px;
+    justify-content: end;
+ }
+ .deals .deal-cont > div div{
+    padding: 56px;
+    background-color: rgba(255, 255, 255, 0.623);
+    max-width: 580px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+ }
+.deals .deal-cont > div div ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 24px;
+}
+.deals .deal-cont > div div h4{
+    font-weight: 800;
+    font-size: 24px;
+    color: #131318;
+}
+.deals .deal-cont > div div p{
+    line-height: 26px;
+    color: #5A5A5D;
+    max-width: 452px;
+}
+.deals .deal-cont > div div h5{
+    color: #FF5400;
+    font-weight: 800;
+    font-size: 20px;
+}
+.deals .deal-cont > :nth-child(2){
+    background-image: url("../Images/Group\ 40.png");
+    justify-content: start;
+}
+
