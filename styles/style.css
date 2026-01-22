@@ -369,4 +369,13 @@ nav > div > ul :nth-child(1) a {
     background-image: url("../Images/Group\ 40.png");
     justify-content: start;
 }
-
+.perfect > div > div > ul li{
+    color: #131318;
+    font-weight: 700;
+}
+.perfect video{
+    width: 610px;
+    height: 424px;
+    object-fit: cover;
+    border-radius: 16px;
+}
