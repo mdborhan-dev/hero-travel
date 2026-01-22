@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .mulish-font {
   font-family: "Mulish", sans-serif;
@@ -191,22 +192,19 @@ nav > div > ul :nth-child(1) a {
 .destination .c h2{
     font-size: 40px;
     font-weight: 800;
-    color: 131318;
+    color: #131318;
 }
 .destination .c p{
     line-height: 26px;
     color: rgba(19, 19, 24, 0.7);
     max-width: 643px;
 }
-.destination .g div {
-    position: relative;
+.destination .g{
     display: grid;
     gap: 24px;
     grid-template-columns: repeat(12,1fr);
 }
-.destination .g :nth-child(1),.destination .g :nth-child(2){
-    grid-column: span(6);
-}
+
 .destination .g :nth-child(1),
 .destination .g :nth-child(2) {
   grid-column: span 6;
@@ -231,8 +229,12 @@ nav > div > ul :nth-child(1) a {
 .destination .g :nth-child(7) {
   grid-column: span 7;
 }
+.destination .g div {
+    position: relative;
+}
 .destination .g div img{
     width: 100%;
+    height: 300px;
 }
 .destination .g div h1{
     position: absolute;
