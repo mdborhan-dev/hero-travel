@@ -149,3 +149,95 @@ nav > div > ul :nth-child(1) a {
     font-size: 20px;
     padding: 14px 34px;
 }
+.popular > div button {
+    display: inline-block;
+}
+
+.popular > div button:hover {
+    animation: readmore 2s ease-in-out infinite;
+}
+
+@keyframes readmore {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.15);
+        /* transform: scale(1.15) translateX(10px); */
+        box-shadow: 4px 4px 20px #FF5400;
+        /* background-color: white;
+        color: #FF5400;
+        border: 1px solid #FF5400; */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+/* Destination section */
+.destination{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:48px;
+}
+.destination .c{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:24px;
+    text-align: center;
+    margin: 0 auto;
+}
+.destination .c h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: 131318;
+}
+.destination .c p{
+    line-height: 26px;
+    color: rgba(19, 19, 24, 0.7);
+    max-width: 643px;
+}
+.destination .g div {
+    position: relative;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(12,1fr);
+}
+.destination .g :nth-child(1),.destination .g :nth-child(2){
+    grid-column: span(6);
+}
+.destination .g :nth-child(1),
+.destination .g :nth-child(2) {
+  grid-column: span 6;
+}
+
+.destination .g :nth-child(3) {
+  grid-column: span 4;
+}
+
+.destination .g :nth-child(4) {
+  grid-column: span 5;
+}
+
+.destination .g :nth-child(5) {
+  grid-column: span 3;
+}
+
+.destination .g :nth-child(6) {
+  grid-column: span 5;
+}
+
+.destination .g :nth-child(7) {
+  grid-column: span 7;
+}
+.destination .g div img{
+    width: 100%;
+}
+.destination .g div h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFFFFF;
+}
