@@ -395,3 +395,57 @@ nav > div > ul :nth-child(1) a {
     font-size: 24px;
     font-weight: 700;
 }
+/* Newsletter section */
+.nlf{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.nlf > .form form {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    min-height: 422px;
+}
+.nlf > .form form h4{
+    font-size: 24px;
+    font-weight: 800;
+    color: #131318;
+}
+.nlf > .form form p{
+    color: #5A5A5D;
+    line-height: 26px;
+}
+.nlf > .form form input{
+    padding: 16px 20px;
+    border: none;
+    background-color: rgba(18, 18, 23, 0.05);
+    color: rgba(18, 18, 23, 0.3);
+    border-radius: 8px;
+}
+.nlf > .form form button{
+    width: 100%;
+}
+.nlf .img > button p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.nlf .img > button h5{
+    font-size: 28px;
+    font-weight: 700;
+}
+.nlf .img{
+    position: relative;
+}
+.nlf .img button{
+    position: absolute;
+    bottom: 51px;
+    right: 10px;
+    transform: rotate(-20deg);
+}
