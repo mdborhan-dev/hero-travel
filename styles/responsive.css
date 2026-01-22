@@ -1,5 +1,5 @@
 @media screen and (max-width:576px) {
-    body{
+    main, header{
         margin: 20px;
     }
     nav > div{
@@ -129,9 +129,25 @@
      }
      .nlf{
         flex-direction: column;
+        margin-bottom: 24px;
      }
-     .nlf{
-
+     .nlf .img .bg{
+        /* width: 100%; */
+     }
+     
+     .nlf .img{
+        width: 100%;
+        overflow: hidden;
+        border-radius: 16px;
+     }
+     .footer .dummy{
+        margin-bottom: 16px;
+     }
+     .footer hr{
+        margin: 24px 0;
+     }
+     .footer {
+        padding: 32px 0;
      }
      
 
@@ -140,13 +156,4 @@
     .deals .deal-cont{
         min-width: 1178px;
     }
-.nlf .img button{
-    position: absolute;
-    bottom: 51px;
-    right: 10px;
-    transform: rotate(-20deg);
-}
-.nlf .img{
-    position: relative;
-}
 }
