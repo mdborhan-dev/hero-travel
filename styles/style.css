@@ -9,4 +9,97 @@
 
 body{
     max-width: 1178px;
+    margin: 0 auto;
+}
+/* shared style */
+.btn{
+    display: block;
+    padding: 14px 22px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 8px;
+}
+/* main styles */
+nav > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 0;
+}
+nav > div div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+nav > div div h1{
+    font-weight: 800;
+    color: #FF5400;
+}
+nav > div div h1 :nth-child(1) {
+    color: black;
+}
+nav > div > ul {
+    display: flex;
+    gap: 44px;
+}
+nav > div > ul li{
+    list-style: none;
+}
+
+nav > div > ul li a{
+    text-decoration: none;
+    color: #424247;
+    font-weight: 700;
+}
+nav > div > ul :nth-child(1) a {
+    color: #FF5400;
+}
+.banner {
+    color: #FFFFFF;
+    background-image:linear-gradient(180deg,rgba(0, 0, 0, 0.678) , rgba(255, 255, 255, 0.274)),url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    min-height: 500px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 48px;
+}
+.banner > div h1 {
+    font-weight:800;
+    font-size: 64px;
+}
+.banner > div p {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 676px;
+    text-align: center;
+}
+.banner form {
+    display: flex;
+    background-color: #ffffff73;
+    padding: 16px;
+    gap: 24px;
+    border-radius: 8px;
+    justify-content: space-between;
+    width: 100%;
+}
+.banner select, .banner input[type="text"]{
+    border-radius: 8px;
+    border: none;
+    color: #1313187c;
+    /* display: block; */
+    width: 174px;
+    padding-left: 16px;
+    /* padding-right: 16px; */
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
