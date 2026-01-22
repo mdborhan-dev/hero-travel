@@ -376,12 +376,14 @@ nav > div > ul :nth-child(1) a {
 .perfect .video video{
     width: 610px;
     height: 424px;
+     border-radius: 16px;
     object-fit: cover;
-    border-radius: 16px;
+   
 }
 .perfect .video {
     position: relative;
     overflow: hidden;
+     border-radius: 16px;
 }
 .perfect .video h3{
     position: absolute;
